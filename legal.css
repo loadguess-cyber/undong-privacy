@@ -1,0 +1,15 @@
+/* 처리방침 · 약관 · 라이선스 — 앱 안(iframe)과 공개 웹 양쪽에서 같은 파일 */
+:root { --bg:#0B0D10; --surface:#15181D; --line:#2A2F37; --text:#F2F4F5; --sub:#9AA1AB; --accent:#C6F432; color-scheme:dark; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:15px/1.65 system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; word-break:keep-all; }
+main { max-width:720px; margin:0 auto; padding:20px 16px 48px; }
+h1 { font-size:22px; margin:0 0 4px; }
+h2 { font-size:16px; margin:28px 0 8px; color:var(--accent); }
+p, li { color:var(--text); }
+.sub, small { color:var(--sub); }
+ul { padding-left:20px; }
+table { width:100%; border-collapse:collapse; font-size:14px; }
+th, td { border:1px solid var(--line); padding:8px; text-align:left; vertical-align:top; }
+th { background:var(--surface); }
+a { color:var(--accent); }
+.todo { background:#3a2a00; color:#FFB547; padding:0 4px; border-radius:4px; }
